@@ -1,0 +1,3 @@
+Jul 16 04:15:22 server sshd[10201]: Accepted password for alice from 198.51.100.15 port 10201 ssh2
+Jul 16 04:20:11 server sshd[10202]: Accepted password for bob from 198.51.100.16 port 10202 ssh2
+Jul 16 04:25:33 server sshd[10203]: Accepted password for carol from 198.51.100.17 port 10203 ssh2

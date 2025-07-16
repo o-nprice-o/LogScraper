@@ -1,0 +1,9 @@
+{
+  "summary": {
+    "failed_logins": 0,
+    "accepted_logins": 0,
+    "sudo_commands": 0,
+    "brute_force_ips": []
+  },
+  "events": []
+}

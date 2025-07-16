@@ -1,0 +1,3 @@
+Jul 16 09:01:55 server sshd[10401]: Failed password for test from 203.0.113.99 port 10401 ssh2
+Jul 16 09:02:00 server sshd[10402]: Failed password for test from 203.0.113.99 port 10402 ssh2
+Jul 16 09:02:45 server sshd[10403]: Accepted password for root from 192.168.1.3 port 10403 ssh2

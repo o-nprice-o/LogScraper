@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "failed_logins": 8,
+    "accepted_logins": 2,
+    "sudo_commands": 2,
+    "brute_force_ips": [
+      "203.0.113.10"
+    ]
+  },
+  "events": [
+    {
+      "user": "admin",
+      "ip": "203.0.113.10",
+      "event_type": "failed_login",
+      "raw": "Jul 15 12:01:01 server sshd[40001]: Failed password for invalid user admin from 203.0.113.10 port 60234 ssh2",
+      "timestamp": "2025-07-15T12:01:01"
+    },
+    {
+      "user": "root",
+      "ip": "203.0.113.10",
+      "event_type": "failed_login",
+      "raw": "Jul 15 12:01:03 server sshd[40002]: Failed password for root from 203.0.113.10 port 60235 ssh2",
+      "timestamp": "2025-07-15T12:01:03"
+    },
+    {
+      "user": "root",
+      "ip": "203.0.113.10",
+      "event_type": "failed_login",
+      "raw": "Jul 15 12:01:05 server sshd[40003]: Failed password for root from 203.0.113.10 port 60236 ssh2",
+      "timestamp": "2025-07-15T12:01:05"
+    },
+    {
+      "user": "root",
+      "ip": "203.0.113.10",
+      "event_type": "failed_login",
+      "raw": "Jul 15 12:01:07 server sshd[40004]: Failed password for root from 203.0.113.10 port 60237 ssh2",
+      "timestamp": "2025-07-15T12:01:07"
+    },
+    {
+      "user": "root",
+      "ip": "203.0.113.10",
+      "event_type": "failed_login",
+      "raw": "Jul 15 12:01:09 server sshd[40005]: Failed password for root from 203.0.113.10 port 60238 ssh2",
+      "timestamp": "2025-07-15T12:01:09"
+    },
+    {
+      "user": "alice",
+      "ip": "198.51.100.5",
+      "event_type": "accepted_login",
+      "raw": "Jul 15 12:01:12 server sshd[40006]: Accepted password for alice from 198.51.100.5 port 51122 ssh2",
+      "timestamp": "2025-07-15T12:01:12"
+    },
+    {
+      "user": "alice",
+      "event_type": "sudo",
+      "raw": "Jul 15 12:05:12 server sudo: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update",
+      "timestamp": "2025-07-15T12:05:12"
+    },
+    {
+      "user": "bob",
+      "ip": "198.51.100.20",
+      "event_type": "failed_login",
+      "raw": "Jul 15 12:15:44 server sshd[40007]: Failed password for bob from 198.51.100.20 port 51125 ssh2",
+      "timestamp": "2025-07-15T12:15:44"
+    },
+    {
+      "user": "bob",
+      "ip": "198.51.100.20",
+      "event_type": "failed_login",
+      "raw": "Jul 15 12:17:29 server sshd[40008]: Failed password for bob from 198.51.100.20 port 51126 ssh2",
+      "timestamp": "2025-07-15T12:17:29"
+    },
+    {
+      "user": "bob",
+      "ip": "198.51.100.20",
+      "event_type": "failed_login",
+      "raw": "Jul 15 12:18:01 server sshd[40009]: Failed password for bob from 198.51.100.20 port 51127 ssh2",
+      "timestamp": "2025-07-15T12:18:01"
+    },
+    {
+      "user": "root",
+      "ip": "203.0.113.99",
+      "event_type": "accepted_login",
+      "raw": "Jul 15 12:25:12 server sshd[40010]: Accepted password for root from 203.0.113.99 port 62000 ssh2",
+      "timestamp": "2025-07-15T12:25:12"
+    },
+    {
+      "user": "root",
+      "event_type": "sudo",
+      "raw": "Jul 15 13:01:02 server sudo: root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd",
+      "timestamp": "2025-07-15T13:01:02"
+    }
+  ]
+}

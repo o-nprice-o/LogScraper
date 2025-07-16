@@ -1,0 +1,37 @@
+{
+  "summary": {
+    "failed_logins": 2,
+    "accepted_logins": 1,
+    "sudo_commands": 1,
+    "brute_force_ips": []
+  },
+  "events": [
+    {
+      "user": "dave",
+      "ip": "192.0.2.25",
+      "event_type": "failed_login",
+      "raw": "Jul 16 06:45:01 server sshd[10301]: Failed password for dave from 192.0.2.25 port 10301 ssh2",
+      "timestamp": "2025-07-16T06:45:01"
+    },
+    {
+      "user": "eve",
+      "ip": "192.0.2.26",
+      "event_type": "accepted_login",
+      "raw": "Jul 16 06:45:04 server sshd[10302]: Accepted password for eve from 192.0.2.26 port 10302 ssh2",
+      "timestamp": "2025-07-16T06:45:04"
+    },
+    {
+      "user": "eve",
+      "event_type": "sudo",
+      "raw": "Jul 16 06:46:12 server sudo: eve : TTY=pts/1 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt update",
+      "timestamp": "2025-07-16T06:46:12"
+    },
+    {
+      "user": "root",
+      "ip": "192.0.2.25",
+      "event_type": "failed_login",
+      "raw": "Jul 16 06:48:33 server sshd[10303]: Failed password for root from 192.0.2.25 port 10303 ssh2",
+      "timestamp": "2025-07-16T06:48:33"
+    }
+  ]
+}

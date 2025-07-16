@@ -1,0 +1,3 @@
+Jul 16 10:00:00 server sudo: frank : TTY=pts/0 ; PWD=/home/frank ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Jul 16 10:05:01 server sudo: frank : TTY=pts/0 ; PWD=/home/frank ; USER=root ; COMMAND=/bin/ls /root
+Jul 16 10:10:01 server sudo: grace : TTY=pts/1 ; PWD=/home/grace ; USER=root ; COMMAND=/bin/rm -rf /tmp/test
