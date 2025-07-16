@@ -1,0 +1,44 @@
+{
+  "summary": {
+    "failed_logins": 3,
+    "accepted_logins": 1,
+    "sudo_commands": 1,
+    "brute_force_ips": []
+  },
+  "events": [
+    {
+      "user": "admin",
+      "ip": "192.168.1.20",
+      "event_type": "failed_login",
+      "raw": "Jul 16 08:32:01 myserver sshd[12345]: Failed password for invalid user admin from 192.168.1.20 port 22 ssh2",
+      "timestamp": "2025-07-16T08:32:01"
+    },
+    {
+      "user": "root",
+      "ip": "192.168.1.20",
+      "event_type": "failed_login",
+      "raw": "Jul 16 08:32:05 myserver sshd[12346]: Failed password for root from 192.168.1.20 port 22 ssh2",
+      "timestamp": "2025-07-16T08:32:05"
+    },
+    {
+      "user": "root",
+      "ip": "192.168.1.20",
+      "event_type": "failed_login",
+      "raw": "Jul 16 08:32:07 myserver sshd[12347]: Failed password for root from 192.168.1.20 port 22 ssh2",
+      "timestamp": "2025-07-16T08:32:07"
+    },
+    {
+      "user": "nprice",
+      "ip": "192.168.1.10",
+      "event_type": "accepted_login",
+      "raw": "Jul 16 08:35:01 myserver sshd[12348]: Accepted password for nprice from 192.168.1.10 port 22 ssh2",
+      "timestamp": "2025-07-16T08:35:01"
+    },
+    {
+      "user": "bob",
+      "event_type": "sudo",
+      "raw": "Jul 16 08:40:01 myserver sudo: bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/ls",
+      "timestamp": "2025-07-16T08:40:01"
+    }
+  ]
+}

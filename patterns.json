@@ -1,0 +1,6 @@
+{
+  "failed_login": "Failed password for (invalid user )?(?P<user>\\w+) from (?P<ip>[\\d.]+)",
+  "accepted_login": "Accepted password for (?P<user>\\w+) from (?P<ip>[\\d.]+)",
+  "sudo": "(?P<user>\\w+) : TTY=.* ; PWD=.* ; USER=root ; COMMAND=.*",
+  "timestamp": "(?P<timestamp>\\w{3}\\s+\\d+\\s+\\d{2}:\\d{2}:\\d{2})"
+}
